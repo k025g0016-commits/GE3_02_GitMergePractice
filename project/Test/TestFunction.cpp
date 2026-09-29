@@ -1,6 +1,6 @@
 #include "TestFunction.h"
-#include <cassert>
+#include <cstdlib>
 
 void TestFunction() {
-	assert(0);
+	std::exit(0);
 }
